@@ -1,0 +1,28 @@
+:root {
+  --primary-blue: #4183c4;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary-blue);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover {
+  border-bottom: 2px solid var(--primary-blue);
+}
